@@ -64,6 +64,10 @@
         margin: 0 1rem;
     }
 
+    .about-content p {
+        width: 350px;
+    }
+
     .about-img {
         width: 350px;
     }
