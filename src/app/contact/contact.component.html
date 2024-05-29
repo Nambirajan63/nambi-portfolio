@@ -1,0 +1,25 @@
+<div class="contact-container" id="contact">
+       
+    <h1 style="width: 50%;text-align: center;"><span class="span-1">Contact</span> <span class="span-2">Me!</span></h1>
+
+        <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)" ngNativeValidate>
+            
+            <label class="row">
+                <input type="text" name="Full-name" placeholder="Full Name" [(ngModel)]="user.fullName" required>
+                <input type="text" name="Phone-number" placeholder="Mobile Number" [(ngModel)]="user.phoneNum" pattern="[0-9]*" required>
+            </label>
+            
+            <label class="row">
+                <input type="email" name="Email" placeholder="Email Address" [(ngModel)]="user.email" required>
+                <input type="text" name="Subject" placeholder="Subject" [(ngModel)]="user.subject" required>
+            </label>
+
+            <textarea id="message" name="Message" cols="30" rows="10" placeholder="Your Message" [(ngModel)]="user.message" required></textarea>
+            
+            
+            <input type="submit" value="Send Message">
+            
+
+        </form>
+
+</div>

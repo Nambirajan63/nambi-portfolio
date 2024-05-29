@@ -1,0 +1,91 @@
+
+.skill-container {
+    width: 100%;
+    height: 100%;
+    padding: 75px 0;
+    margin-bottom: 50px;
+}
+
+.skill-container h2 {
+    color: #f9532d;
+    margin: 25px 0 25px 95px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.skill-cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 40px 40px;
+}
+
+.skill-cards .card {
+    width: 250px;
+    height: 100%;
+    text-align: center;
+    padding: 0.4rem;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.skill-cards h3 {
+    color: #3498DB;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.skill-cards p {
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.card img {
+    width: 110px;
+    height: 130px;
+}
+
+.card img,.card h3,.card p {
+    margin: 8px;
+}
+
+.bootstrap img {
+    width: 130px;
+    height: 130px;
+}
+
+.java img {
+    width: 80px;
+    height: 130px;
+}
+
+.spring-boot img {
+    width: 220px;
+    height: 130px;
+}
+
+.mysql img {
+    width: 130px;
+    height: 130px;
+}
+
+.card:hover {
+    box-shadow: 0 0 7px white,
+                0 0 10px white,
+                0 0 15px white,
+                0 0 17px white;
+}
+
+.card:hover img {
+    transition: all .2s linear;
+    transform: scale(1.1);
+} 
+
+
+@media only screen and (max-width: 400px) {
+    .skill-container h2 {
+        margin: 25px;
+    }
+}
