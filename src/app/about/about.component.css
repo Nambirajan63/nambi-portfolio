@@ -11,7 +11,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin-top: 25px;
-    gap: 0 5.5rem;
+    gap: 2rem 5.5rem;
 }
 
 .about-head {
@@ -24,7 +24,6 @@
 
 .about-content {
     width: 550px;
-    height: 400px;
     padding: 10px; 
     font-size: 15px;
 }
@@ -51,20 +50,22 @@
                 
 @media only screen and (max-width: 400px) {
     .about-container {
-        padding: 50px 5px 30px;
-        margin: 0;
-    }
-
-    .about {
-        gap: 12rem 5.5rem;
+        padding: 50px 0 30px;
     }
 
     .about-head {
         margin: 0 1rem;
     }
 
+    .about-content {
+        width: 100%;
+        height: 100%;
+    }
+
     .about-content p {
-        width: 350px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
     }
 
     .about-img {
@@ -72,7 +73,6 @@
     }
 
     .about-img img {
-        margin-left: 2rem;
-        height: 350px;
+        height: 330px;
     }
 }

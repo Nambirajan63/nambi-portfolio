@@ -2,7 +2,7 @@
     height: 100%;
     display: flex;
     justify-content: space-evenly;
-    padding: 2rem 6rem;
+    padding: 0 6rem;
     gap: 8rem;
 }
 
