@@ -24,7 +24,6 @@
 
 .about-content {
     width: 550px;
-    padding: 10px; 
     font-size: 15px;
 }
 
@@ -58,8 +57,9 @@
     }
 
     .about-content {
-        width: 100%;
+        width: 380px;
         height: 100%;
+        padding: 10px;
     }
 
     .about-content p {
